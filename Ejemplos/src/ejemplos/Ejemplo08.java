@@ -5,8 +5,6 @@
  */
 package ejemplos;
 
-import java.util.Scanner;
-
 /**
  *
  * @author reroes

@@ -5,8 +5,6 @@
  */
 package ejemplos;
 
-import java.util.Scanner;
-
 /**
  *
  * @author reroes
@@ -26,10 +24,10 @@ public class Ejemplo09 {
         // Se hace uso del ciclo repetitivo for para recorrer los arreglos
         // y presentar los valore de las posiciones
         
-        for (int i = 0; i < promedios.length; i++) { // estudiantes.length 
+        for (int i = 0; i < estudiantes.length; i++) { // estudiantes.length 
             mensajeFinal = String.format("%sEstudiante:%s - promedio: %.4f\n", 
                     mensajeFinal,
-                    estudiantes[i],
+                    estudiantes[i].toUpperCase(),
                     promedios[i]);
         }
         

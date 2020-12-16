@@ -5,8 +5,6 @@
  */
 package ejemplos;
 
-import java.util.Scanner;
-
 /**
  *
  * @author reroes
@@ -30,7 +28,7 @@ public class Ejemplo010 {
             // Se agrega los valores al reporte siempe y cuando
             // el valor de la posición del arreglo promedios
             // sea mayor o igual a 9.5
-            if (promedios[i]>=9.5) {
+            if (promedios[i]<8.1) {
             
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
